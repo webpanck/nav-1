@@ -62,3 +62,7 @@ $(document).on('keypress', (e) => {
     }
   }
 })
+
+$('.searchForm').on('keypress', (e) => {
+  e.stopPropagation()
+})
